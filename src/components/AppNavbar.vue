@@ -30,6 +30,11 @@ export default {
         align-items: center;
         padding: 3rem 10rem;
         height: 10vh;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background: linear-gradient(90deg, #1a1a1a, #000000);
     }
 
     .logo {
