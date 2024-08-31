@@ -84,7 +84,7 @@ export default {
     }
 
     nav button:hover {
-        background-color: #00e62b;
+        background-color: white;
     }
 
     nav ul li .router-link-active {

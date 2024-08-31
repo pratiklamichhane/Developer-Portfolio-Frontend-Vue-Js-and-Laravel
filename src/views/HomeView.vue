@@ -1,6 +1,13 @@
 <script setup>
+import HeroBanner from '@/components/HeroBanner.vue'
+import ProjectsSection from '@/components/ProjectsSection.vue'
+import TechSection from '@/components/TechSection.vue'
 </script>
 
 <template>
-  <h1>This is Homepage</h1>
+  <div>
+    <HeroBanner />
+    <ProjectsSection />
+    <TechSection />
+  </div>
 </template>
